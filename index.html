@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zeus</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header >
         <div class="menu_logo"><img src="zeus media/burger_menu.png" alt="menu_logo"></div>
         <div class="header_container">
-            <div>
+            <div class="hidden_bar">
                 <nav>
                     <ul>
                         <li>Home</li>
@@ -20,7 +21,7 @@
                 </nav>
             </div>
             <div class="nav_logo"><img src="zeus media/Logo.png" alt="logo"></div>
-            <div>
+            <div class="hidden_bar">
                 <ul>
                     <li>Use cases</li>
                     <li><select name="section" id="plas">
@@ -34,12 +35,12 @@
         </div>
     </header>
 
-    <section>
-        <h1 class="hero_text">Create & sell your NFTs today </h1>
-        <p>Velit, odio bibendum eu, viverra sit laoreet posuere. Ut scelerisque posuere massa amet. 
+    <section class="below_nav container">
+        <h1 class="hero_text syne_font">Create & sell your NFTs today </h1>
+        <p class="space_font">Velit, odio bibendum eu, viverra sit laoreet posuere. Ut scelerisque posuere massa amet. 
             Ornare lacinia vitae at vestibulum morbi. 
             Volutpat libero curabitur feugiat risus dui pulvinar. Elementum.</p>
-        <button>Let's sell</button>
+        <button class="syne_font">Let's sell</button>
     </section>
 
     <!-- <div class="bg_image">
@@ -49,7 +50,7 @@
         <span><img src="" alt="pin"></span>
     </div> -->
 
-    <div class="sponsors_logo">
+    <div class="sponsors_logo container">
         <div><img src="zeus media/logoipsum1.png" alt=""></div>
         <div><img src="zeus media/logoipsum2.png" alt=""></div>
         <div><img src="zeus media/logoipsum3.png" alt=""></div>
@@ -58,18 +59,18 @@
         <div><img src="zeus media/logoipsum6.png" alt=""></div>
     </div>
 
-    <div class="section_header">
-        <h1>Hottest collections</h1>
-        <p>Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. 
+    <div class="section_header container">
+        <h1 class="syne_font">Hottest collections</h1>
+        <p class="space_font">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. 
             Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
         
     </div>
-    <div class="collections_gallery">
+    <div class="collections_gallery container">
         <div class="collection_image">
             <img src="zeus media/collection1.png" alt="">
             <div class="collection_text">
-                <h3>Moonbirds</h3>
-                <p>Faucibus odio elementum nulla venenatis, libero. 
+                <h3 class="syne_font">Moonbirds</h3>
+                <p class="space_font">Faucibus odio elementum nulla venenatis, libero. 
                     Ullamcorper duis fringilla pulvinar nibh diam sit.</p>
             </div>
         </div>
@@ -77,8 +78,8 @@
         <div class="collection_image">
             <img src="zeus media/collection2.png" alt="">
             <div class="collection_text">
-                <h3>Clone X - X Takashi Murakami</h3>
-                <p>Magna in condimentum praesent pretium vitae mattis 
+                <h3 class="syne_font">Clone X - X Takashi Murakami</h3>
+                <p class="space_font">Magna in condimentum praesent pretium vitae mattis 
                     facilisis nunc. Lectus in ac ac.</p>
             </div>
         </div>
@@ -86,23 +87,23 @@
         <div class="collection_image">
             <img src="zeus media/collection3.png" alt="">
             <div class="collection_text">
-                <h3>Meta Toy DragonZ</h3>
-                <p>Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget 
+                <h3 class="syne_font">Meta Toy DragonZ</h3>
+                <p class="space_font">Sit aenean porttitor sit lectus. Adipiscing egestas etiam eget 
                     cursus nulla risus euismod. Netus.</p>
             </div>
         </div>
     </div>
 
-    <div class="section_header">
-        <h1>Our Team</h1>
-        <p>Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat 
+    <div class="section_header container">
+        <h1 class="syne_font">Our Team</h1>
+        <p class="space_font">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat 
             scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna 
             semper orci a tincidunt. </p>
     </div>
-    <div class="team_container">
+    <div class="team_container container">
         <div class="team_image">
             <img src="zeus media/CEO.png" alt="">
-            <div class="collection_text">
+            <div class="collection_text lexend">
                 <h4>Guy Hawkins</h4>
                 <p>CEO</p>
             </div>
@@ -110,7 +111,7 @@
 
         <div class="team_image">
             <img src="zeus media/COO.png" alt="">
-            <div class="collection_text">
+            <div class="collection_text lexend">
                 <h4>Jane Cooper</h4>
                 <p>COO</p>
             </div>
@@ -118,7 +119,7 @@
 
         <div class="team_image">
             <img src="zeus media//CTO.png" alt="">
-            <div class="collection_text">
+            <div class="collection_text lexend">
                 <h4>Darrell Steward</h4>
                 <p>CTO</p>
             </div>
@@ -126,21 +127,21 @@
 
         <div class="team_image">
             <img src="zeus media/CDO.png" alt="">
-            <div class="collection_text">
+            <div class="collection_text lexend">
                 <h4>Dianne Russell</h4>
                 <p>CDO</p>
             </div>
         </div>
     </div>
 
-    <div class="section_header">
-        <h1>We Provide</h1>
-        <p>Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat 
+    <div class="section_header container">
+        <h1 class="syne_font">We Provide</h1>
+        <p class="space_font">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat 
             scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna 
             semper orci a tincidunt. </p>
     </div>
 
-    <div class="provide_container">
+    <div class="provide_container container">
         <div class="provide_image">
             <img src="zeus media/host.png" alt="">
             <div class="collection_text">
@@ -174,20 +175,20 @@
         </div>
     </div>
 
-    <div class="section_header">
-        <h1>Testimonials</h1>
+    <div class="section_header container">
+        <h1 class="syne_font">Testimonials</h1>
     </div>
 
     <!-- code for the testimonials to be here -->
 
-    <div class="section_header">
-        <h1>Frequently Asked Question</h1>
-        <p>Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat 
+    <div class="section_header container">
+        <h1 class="syne_font">Frequently Asked Question</h1>
+        <p class="space_font">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat 
             scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a 
             tincidunt. </p>
     </div>
 
-    <div class="faq_container">
+    <div class="faq_container container"> 
         <select name="" id="">
             <option value="">What kind of websites I can build with Zeus UI?</option>
         </select>
@@ -221,17 +222,17 @@
         </select>
     </div>
 
-    <div class="sell_nft">
-        <h1>Ready to sell your NFTs?</h1>
-        <p>Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta
+    <div class="sell_nft container">
+        <h1 class="syne_font">Ready to sell your NFTs?</h1>
+        <p class="space_font">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta
             feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat
             magna semper orci a tincidunt. </p>
-        <button>Sell right now</button>
+        <button class="syne_font">Sell right now</button>
     </div>
 
-    <div class="footer_logo"><img src="zeus media/Logo.png" alt="logo"></div>
+    <div class="footer_logo container"><img src="zeus media/Logo.png" alt="logo"></div>
 
-    <footer>
+    <footer class="space_font container">
         <div class="footer_links">
             <a href="#">About Us</a>
             <a href="#">Activity</a>
@@ -243,6 +244,6 @@
             <a href="#">Cookies</a>
         </div>
     </footer>
-    <h6>Copyright 2022 Zeus UI</h6>
+    <h6 class="space_font container">Copyright 2022 Zeus UI</h6>
 </body>
 </html>

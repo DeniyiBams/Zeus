@@ -1,3 +1,18 @@
+@font-face {
+    font-family: space;
+    src: url(SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: syne;
+    src: url(Syne-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: lexend;
+    src: url(LexendDeca-VariableFont_wght.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -31,5 +46,16 @@ body {
     top: 0;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 48px;
+}
+
+.below_nav {
+    margin-top: 112px;
+}
+
+.space_font {
+    font-family: space;
+}
+
+.syne_font {
+    font-family: syne;
 }
