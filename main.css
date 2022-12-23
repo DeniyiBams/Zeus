@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: ; */
+    margin: 16px;
+    background-color: #FCFAFF;
+}
+
+.hidden_bar {
+    display: none;
+}
