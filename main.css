@@ -4,10 +4,32 @@
 
 body {
     /* font-family: ; */
-    margin: 16px;
+    margin: 0px;
+    /* padding: 16px; */
     background-color: #FCFAFF;
 }
 
 .hidden_bar {
     display: none;
+}
+
+.menu_logo {
+    position: fixed;
+    top: 20px;
+    left: 16px;
+    z-index: 2;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 64px;
+    border-bottom: 1px solid #F8E0FB;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 48px;
 }
