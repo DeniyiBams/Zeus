@@ -18,9 +18,7 @@
 }
 
 body {
-    /* font-family: ; */
-    margin: 0px;
-    /* padding: 16px; */
+    margin: 0;
     background-color: #FCFAFF;
 }
 
@@ -36,14 +34,16 @@ body {
 }
 
 .header_container {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    min-height: 64px;
+    height: 64px;
     border-bottom: 1px solid #F8E0FB;
-    position: fixed;
-    top: 0;
     overflow: hidden;
     width: 100%;
 }
@@ -58,4 +58,20 @@ body {
 
 .syne_font {
     font-family: syne;
+}
+
+.container {
+    margin-left: 16px;
+    margin-right: 16px;; 
+}
+
+.collection_image img {
+    max-width: 288px;
+    height: 396px;
+    object-fit: fill;
+    border-radius: 30px;
+}
+
+select {
+    max-width: 288px;
 }
