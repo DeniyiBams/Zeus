@@ -50,6 +50,7 @@ body {
 
 .below_nav {
     margin-top: 112px;
+    margin-bottom: 48px;
 }
 
 .space_font {
@@ -68,10 +69,63 @@ body {
 .collection_image img {
     max-width: 288px;
     height: 396px;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: center center;
     border-radius: 30px;
 }
 
 select {
     max-width: 288px;
+}
+
+p {
+    color: #532C59;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+h1 {
+    font-style: normal;
+    font-size: 2.25rem;
+    text-align: center;
+    width: 288px;
+    font-weight: 700;
+    height: auto;
+    color: black;
+}
+
+h1.main {
+    /* height: 168px; */
+    line-height: 56px;
+    text-shadow: -5px 5px 0px #FFFFFF;
+    /* flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0; */
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+section, div {
+    text-align: center;
+}
+
+button {
+    color: white;
+    padding: 12px;
+    background-image: linear-gradient(to bottom right, #532C59, #5a2f61);
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    min-width: 114px;
+}
+
+div.sponsors_logo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 32px;
+}
+.sponsors_logo > div {
+    /* margin: 16px; */
 }
