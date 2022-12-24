@@ -171,6 +171,26 @@ h1.team {
     margin-bottom: 8px;
 }
 
-.section_header:nth-child(2) {
+.our_team {
     margin-bottom: 48px;
+}
+
+.team_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 48px;
+}
+
+.lexend {
+    font-family: lexend;
+}
+.lexend > h4 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 136px;
+    margin-bottom: 8px;
+}
+.lexend > p {
+    font-size: 14px;
+    font-weight: 300;
 }
