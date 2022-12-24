@@ -160,3 +160,17 @@ div.collections_gallery {
 .collections_gallery > div:last-child {
     margin-bottom: 52px;
 }
+
+p.light_font {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+h1.team {
+    margin-bottom: 8px;
+}
+
+.section_header:nth-child(2) {
+    margin-bottom: 48px;
+}
