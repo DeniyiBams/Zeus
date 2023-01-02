@@ -99,17 +99,24 @@ h1.main {
     /* height: 168px; */
     line-height: 56px;
     text-shadow: -5px 5px 0px #FFFFFF;
-    /* flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0; */
     margin-bottom: 16px;
-    padding: 0;
+    /* padding: 0; */
 }
 
-section, div {
+div.below_nav, div {
     text-align: center;
 }
+
+.below_nav,
+.section_header,
+.sell_nft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 
 button {
     color: white;
@@ -176,9 +183,10 @@ h1.team {
 }
 
 .team_container {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .lexend {
@@ -193,4 +201,30 @@ h1.team {
 .lexend > p {
     font-size: 14px;
     font-weight: 300;
+}
+
+.we_provide > h1 {
+    margin-bottom: 8px;
+}
+.we_provide {
+    margin-bottom: 32px;
+}
+
+.provide_container {
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 92px;
+}
+.collection_text > p {
+    font-size: 12px;
+}
+div.provide_image img {
+    margin-bottom: 8px !important;
+}
+.collection_text h4 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.provide_image {
+    margin-bottom: 24px;
 }
