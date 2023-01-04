@@ -255,7 +255,7 @@ div.provide_image img {
 }
 
 div.sell_nft {
-    margin: 48px 0;
+    margin: 0 0 48px 0;
     display: flex;
     justify-content: center !important;
     flex-wrap: wrap;
