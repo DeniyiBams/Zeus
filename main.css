@@ -15,6 +15,7 @@
 
 * {
     box-sizing: border-box;
+    border: 2px solid red;
 }
 
 body {
@@ -222,4 +223,27 @@ div.provide_image img {
 }
 .provide_image {
     margin-bottom: 24px;
+}
+
+.faq_container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.faq_content {
+    padding: 16px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    margin-bottom: 16px;
+}
+
+.faq_content p {
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    max-width: 200px;
+    text-align: left;
 }
