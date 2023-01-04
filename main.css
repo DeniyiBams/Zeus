@@ -15,7 +15,7 @@
 
 * {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 body {
@@ -261,7 +261,6 @@ div.sell_nft {
     flex-wrap: wrap;
     padding: 48px 16px;
     align-items: center;
-    border: 3px solid black;
 }
 
 .sell_content > h2,
@@ -282,8 +281,8 @@ div.sell_content > p {
 }
 
 .sell_content {
-    background-image: radial-gradient(#D6BCFA 80%, #c0a9e0 20%);
+    box-shadow: inset 0px 0px 50px #F8E0FA;
     border-radius: 40px;
-    border: 3px solid black;
-    padding: 24px 16px !important;
+    border: 1px solid #D6BCFA;
+    padding: 24px 16px;
 }
