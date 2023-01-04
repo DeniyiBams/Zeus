@@ -15,7 +15,7 @@
 
 * {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 body {
@@ -232,12 +232,13 @@ div.provide_image img {
 
 .faq_content {
     padding: 16px;
-    border: 3px solid black;
+    border: 3px solid #D6BCFA;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     margin-bottom: 16px;
+    border-radius: 15px;
 }
 
 .faq_content p {
@@ -246,4 +247,8 @@ div.provide_image img {
     margin: 0;
     max-width: 200px;
     text-align: left;
+}
+
+.icon {
+    color: #9F7AEA;
 }
