@@ -15,7 +15,7 @@
 
 * {
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 body {
@@ -286,3 +286,17 @@ div.sell_content > p {
     border: 1px solid #D6BCFA;
     padding: 24px 16px;
 }
+
+.footer_container {
+    margin: 0;
+    padding: 48px, 16px, 16px, 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
