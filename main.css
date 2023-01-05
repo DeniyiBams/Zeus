@@ -289,14 +289,34 @@ div.sell_content > p {
 
 .footer_container {
     margin: 0;
-    padding: 48px, 16px, 16px, 32px;
+    padding: 48px 16px 32px 16px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.footer_links {
+.links_container {
+    width: 288px;
     display: grid;
     grid-template-columns: auto auto;
+    gap: 24px 16px;
+    border: 2px solid black;
+    padding: 32px 0;
+    margin-bottom: 32px;
 }
 
+.link_item {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 3px solid pink;
+}
+.link_item a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
 
+div.footer_logo {
+    margin-bottom: 32px;
+}
