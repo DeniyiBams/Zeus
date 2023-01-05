@@ -301,15 +301,14 @@ div.sell_content > p {
     gap: 24px 16px;
     padding: 32px 0;
     margin-bottom: 32px;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.8);
-    border-top: 2px solid rgba(128, 128, 128, 0.8);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.8);
+    border-top: 1px solid rgba(128, 128, 128, 0.8);
 }
 
 .link_item {
     text-align: center;
     padding: 0;
     margin: 0;
-    border: 3px solid pink;
 }
 .link_item a {
     text-decoration: none;
