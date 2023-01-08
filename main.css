@@ -15,11 +15,13 @@
 
 * {
     box-sizing: border-box;
+    border: 3px solid red;
 }
 
 body {
     margin: 0;
     background-color: #FCFAFF;
+    overflow-x: hidden !important;
 }
 
 .hidden_bar {
@@ -49,7 +51,7 @@ body {
 }
 
 .below_nav {
-    margin-top: 112px;
+    margin-top: 48px; /*116px*/
     margin-bottom: 48px;
 }
 
@@ -115,6 +117,11 @@ div.below_nav, div {
     flex-wrap: wrap;
 }
 
+.below_container {
+    position: relative;
+    border: 3px solid black;
+    margin-top: 50px;
+}
 
 button {
     color: white;
@@ -322,4 +329,19 @@ div.footer_logo {
 
 .cpy_right > h6 {
     margin: 0;
+}
+
+.ruby, 
+.ribbon,
+.magnet,
+.pin {
+    position: absolute;
+    z-index: -1;
+}
+
+img.ruby {
+    width: 105px;
+    height: 105px;
+    left: 261px;
+    top: 363px;
 }
