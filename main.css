@@ -24,10 +24,6 @@ body {
     overflow-x: hidden !important;
 }
 
-.hidden_bar {
-    display: none;
-}
-
 .menu_logo {
     position: fixed;
     top: 20px;
@@ -48,6 +44,28 @@ body {
     border-bottom: 1px solid #F8E0FB;
     overflow: hidden;
     width: 100%;
+    z-index: 1;
+}
+
+.hidden_nav {
+    /* display: none; */
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 3px solid red;
+}
+
+.navlinks {
+    z-index: 5;
+    background-color: #9F7AEA;
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
 }
 
 .below_nav {
@@ -119,7 +137,6 @@ div.below_nav, div {
 
 .below_container {
     position: relative;
-    border: 3px solid black;
     margin-top: 50px;
 }
 
