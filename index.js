@@ -1,0 +1,1 @@
+const menuBtn = Document.getElementById("menu-btn")
